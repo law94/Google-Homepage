@@ -1,0 +1,69 @@
+body p{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    margin-left: auto;
+    padding: 1em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 15px;
+}
+main{
+    width: 50%;
+    margin: 14.5em auto;
+    text-align: center;
+
+
+}
+main img{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: 200px;
+}
+main input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid gray;
+    
+}
+.buttons{
+    margin-top: 1em;
+}
+.buttons button{
+    padding: 1em;
+    border: none;
+}
+footer{
+    background-color: rgb(182, 180, 180);
+}
+.footer_top {
+    padding: 1em;
+}
+.footer_bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.left a{
+    margin-right: 1em;
+
+}
+.right a{
+    margin-left: 1em;
+}
